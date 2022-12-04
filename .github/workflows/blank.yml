@@ -3,9 +3,9 @@ name: Deploy to ECR
 on:
  
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull-request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   
